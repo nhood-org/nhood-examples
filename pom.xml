@@ -25,6 +25,13 @@
 
     </properties>
 
+	<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://maven.pkg.github.com/nhood-org/repository</url>
+		</repository>
+	</repositories>
+
     <dependencies>
         <dependency>
             <groupId>com.h8.nh</groupId>
