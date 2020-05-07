@@ -1,4 +1,4 @@
-package com.h8.nh.nhoodengine.example.exoplanets.model;
+package com.h8.nh.nhood.examples.exoplanets.model;
 
 import java.util.Objects;
 

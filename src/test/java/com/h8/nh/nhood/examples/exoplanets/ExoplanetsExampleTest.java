@@ -1,13 +1,13 @@
-package com.h8.nh.nhoodengine.example.exoplanets;
+package com.h8.nh.nhood.examples.exoplanets;
 
+import com.h8.nh.nhood.examples.exoplanets.model.Exoplanet;
+import com.h8.nh.nhood.examples.exoplanets.model.ExoplanetDataLoader;
+import com.h8.nh.nhood.examples.exoplanets.model.ExoplanetMetadata;
 import com.h8.nh.nhoodengine.core.DataFinder;
 import com.h8.nh.nhoodengine.core.DataFinderCriteria;
 import com.h8.nh.nhoodengine.core.DataFinderFailedException;
 import com.h8.nh.nhoodengine.core.DataFinderResult;
 import com.h8.nh.nhoodengine.core.impl.DataScoreComputationEngine;
-import com.h8.nh.nhoodengine.example.exoplanets.model.Exoplanet;
-import com.h8.nh.nhoodengine.example.exoplanets.model.ExoplanetDataLoader;
-import com.h8.nh.nhoodengine.example.exoplanets.model.ExoplanetMetadata;
 import com.h8.nh.nhoodengine.matrix.DataMatrixRepository;
 import com.h8.nh.nhoodengine.matrix.DataMatrixRepositoryFailedException;
 import com.h8.nh.nhoodengine.matrix.impl.DataMatrixCellBasedRepository;

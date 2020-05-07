@@ -1,4 +1,4 @@
-package com.h8.nh.nhoodengine.example.worldcities.model;
+package com.h8.nh.nhood.examples.worldcities.model;
 
 import com.h8.nh.nhoodengine.core.DataResourceKey;
 

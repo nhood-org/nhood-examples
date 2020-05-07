@@ -1,7 +1,7 @@
-package com.h8.nh.nhoodengine.example.worldcities.model;
+package com.h8.nh.nhood.examples.worldcities.model;
 
 import com.h8.nh.nhoodengine.core.DataResource;
-import com.h8.nh.nhoodengine.example.utils.GenericDataLoader;
+import com.h8.nh.nhood.examples.utils.GenericDataLoader;
 import com.h8.nh.nhoodengine.matrix.DataMatrixRepository;
 
 import java.util.HashMap;
