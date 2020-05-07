@@ -4,7 +4,7 @@
 #
 defaults: &defaults
   docker:
-  - image: circleci/maven:3.6-jdk-11
+  - image: circleci/openjdk:8-jdk
 
 defaults-env: &defaults-env
   environment:
