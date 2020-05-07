@@ -12,6 +12,7 @@ Currently, the following use-cases are covered:
 
 - DataFinder is used to resolve 30 of cities closest to Cracow considering its geographical coordinates.
 - DataFinder is used to resolve a planet with the characteristics similar to the characteristics of the Earth.
+- DataFinder is used to resolve 10 of songs similar to the given one according to its metadata vectors.
 
 ## Technology
 
@@ -29,6 +30,17 @@ In order to build and run the tests use the command:
 ```bash
 mvn clean install
 ```
+
+## CI/CD
+
+Project is continuously integrated with `circleCi` pipeline that link to which may be found [here](https://circleci.com/gh/nhood-org/workflows/nhood-engine)
+
+Pipeline is fairly simple:
+
+1. Build and test project with a set of jdk: `1.8` and `11`.
+2. Deploy new snapshot version to [nhood maven repository](https://github.com/nhood-org/nhood-repository/tree/mvn-repo/com/h8/nh)
+
+Configuration of CI is implemented in `.circleci` and  `.circleci.setting.xml`.
 
 ## License
 
