@@ -24,7 +24,7 @@ It based on pure Java 8 with minimal possible amount of dependencies.
 
 ## Build and run
 
-In order to build and run the test use the command:
+In order to build and run the tests use the command:
 
 ```bash
 mvn clean install
