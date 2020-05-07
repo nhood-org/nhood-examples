@@ -22,30 +22,12 @@ It based on pure Java 8 with minimal possible amount of dependencies.
 - Java 8
 - Maven
 
-## Docker
+## Build and run
 
-To run the examples in docker, call the command from nhood-examples folder:
-
-```bash
-docker run -d -P  -v {/path/to/.m2}:/root/.m2 -v `pwd`:/test_app maven:3.6-jdk-11 cd /test_app && mvn clean install
-```
-
-Note: In order to be able to download packages from github, please follow [the instruction](https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages) if it is the issue
-
-## Build
-
-In order to build the project use the following maven command:
+In order to build and run the test use the command:
 
 ```bash
 mvn clean install
-```
-
-## Test
-
-In order to test the project use the following maven command:
-
-```bash
-mvn clean test
 ```
 
 ## License
