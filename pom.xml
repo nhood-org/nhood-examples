@@ -4,7 +4,7 @@
 
     <groupId>com.h8.nh</groupId>
     <artifactId>nhood-examples</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -29,31 +29,31 @@
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-core</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-core-api</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-matrix-api</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-matrix</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-test-utils</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </dependency>
 
         <dependency>
