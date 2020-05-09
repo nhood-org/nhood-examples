@@ -43,31 +43,31 @@
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-core</artifactId>
-            <version>${nhood.version}</version>
+            <version>${nhood-engine.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-core-api</artifactId>
-            <version>${nhood.version}</version>
+            <version>${nhood-engine.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-matrix-api</artifactId>
-            <version>${nhood.version}</version>
+            <version>${nhood-engine.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-matrix</artifactId>
-            <version>${nhood.version}</version>
+            <version>${nhood-engine.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.h8.nh</groupId>
             <artifactId>nhood-engine-test-utils</artifactId>
-            <version>${nhood.version}</version>
+            <version>${nhood-engine.version}</version>
         </dependency>
 
         <dependency>
