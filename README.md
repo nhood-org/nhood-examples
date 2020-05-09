@@ -33,16 +33,11 @@ mvn clean install
 
 ## CI/CD
 
-Project is continuously integrated with `circleCi` pipeline that link to which may be found [here](https://circleci.com/gh/nhood-org/workflows/nhood-engine)
-
-Pipeline is fairly simple:
-
-1. Build and test project with a set of jdk: `1.8` and `11`.
-2. Deploy new snapshot version to [nhood maven repository](https://github.com/nhood-org/nhood-repository/tree/mvn-repo/com/h8/nh)
+Project is continuously integrated with `circleCi` pipeline that link to which may be found [here](https://circleci.com/gh/nhood-org/workflows/nhood-examples)
 
 Configuration of CI is implemented in `.circleci` and  `.circleci.setting.xml`.
 
 ## License
 
-`nhood-engine` is released under the MIT license:
+`nhood-examples` is released under the MIT license:
 - https://opensource.org/licenses/MIT
