@@ -1,0 +1,11 @@
+**/target
+**/bin
+
+*.iml
+.idea
+.project
+
+*.releaseBackup
+release.properties
+
+*.DS_Store

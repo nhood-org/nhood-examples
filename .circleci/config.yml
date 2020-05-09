@@ -1,0 +1,37 @@
+# Java Maven CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-java/ for more details
+#
+defaults: &defaults
+  docker:
+  - image: circleci/openjdk:8-jdk
+
+defaults-env: &defaults-env
+  environment:
+    _JAVA_OPTIONS: -Xms1g -Xmx2g
+
+version: 2
+jobs:
+  build:
+    <<: *defaults
+    <<: *defaults-env
+    steps:
+    - checkout
+    - run: mvn -s .circleci.settings.xml clean install
+    - store_test_results:
+        path: target/surefire-reports
+
+  build-jdk11:
+    docker:
+    - image: circleci/openjdk:11-jdk
+    <<: *defaults-env
+    steps:
+    - checkout
+    - run: mvn -s .circleci.settings.xml clean install
+
+workflows:
+  version: 2
+  build-tests:
+    jobs:
+      - build
+      - build-jdk11
