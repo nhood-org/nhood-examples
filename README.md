@@ -1,4 +1,5 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CircleCI](https://circleci.com/gh/nhood-org/nhood-examples.svg?style=shield)](https://circleci.com/gh/nhood-org/nhood-examples)
 
 # nhood-examples
 
