@@ -29,14 +29,15 @@ It based on pure Java 8 with minimal possible amount of dependencies.
 In order to build and run the tests use the command:
 
 ```bash
-mvn clean install
+make build
 ```
 
 ## CI/CD
 
 Project is continuously integrated with `circleCi` pipeline that link to which may be found [here](https://circleci.com/gh/nhood-org/workflows/nhood-examples)
+It builds and tests project with a set of jdk 8 and 11.
 
-Configuration of CI is implemented in `.circleci` and  `.circleci.setting.xml`.
+Configuration of CI is implemented in `.circleci/config.yml` and  `.circleci.setting.xml`.
 
 ## License
 

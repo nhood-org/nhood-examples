@@ -17,7 +17,7 @@ jobs:
     <<: *defaults-env
     steps:
     - checkout
-    - run: mvn -s .circleci.settings.xml clean install
+    - run: make build-ci
     - store_test_results:
         path: target/surefire-reports
 
@@ -27,7 +27,7 @@ jobs:
     <<: *defaults-env
     steps:
     - checkout
-    - run: mvn -s .circleci.settings.xml clean install
+    - run: make build-ci
 
 workflows:
   version: 2
