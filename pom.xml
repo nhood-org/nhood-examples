@@ -24,7 +24,7 @@
         <mockito.version>3.3.3</mockito.version>
         
         <!--plugins-->
-        <surfire.plugin.version>3.0.0-M4</surfire.plugin.version>
+        <surfire.plugin.version>3.0.0-M5</surfire.plugin.version>
         <checkstyle.plugin.version>3.1.1</checkstyle.plugin.version>
         
         <!--repository-->
