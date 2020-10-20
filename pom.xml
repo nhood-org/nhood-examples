@@ -21,7 +21,7 @@
         <junit.jupiter.version>5.7.0</junit.jupiter.version>
         <junit.platform.version>1.7.0</junit.platform.version>
         <assertj.version>3.17.2</assertj.version>
-        <mockito.version>3.5.13</mockito.version>
+        <mockito.version>3.5.15</mockito.version>
         
         <!--plugins-->
         <surfire.plugin.version>3.0.0-M5</surfire.plugin.version>
